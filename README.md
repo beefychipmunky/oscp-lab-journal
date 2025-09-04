@@ -6,6 +6,7 @@ Each entry follows a consistent workflow: **Recon → Vulnerability → Exploita
 > Featured proof:  
 > ![Root shell on Metasploitable2](./metasploitable2/images/root-shell.png)
 
+
 ## 🔎 Live Index
 
 ### Metasploitable2
