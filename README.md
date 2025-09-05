@@ -3,9 +3,6 @@
 Hands-on pentesting practice in a safe VirtualBox lab (Host-Only networking).
 Each entry follows a consistent workflow: **Recon → Vulnerability → Exploitation → Proof → Remediation**.
 
-> Featured proof:  
-> ![Root shell on Metasploitable2](./metasploitable2/images/root-shell.png)
-
 
 ## 🔎 Live Index
 
