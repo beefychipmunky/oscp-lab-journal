@@ -10,11 +10,17 @@ Each entry follows a consistent workflow: **Recon → Vulnerability → Exploita
 ## 🔎 Live Index
 
 ### Metasploitable2
-- **vsftpd 2.3.4 backdoor (ftp/21)** — [Write-up](./metasploitable2/exploit_vsftpd.md)
-  - [Nmap results](./metasploitable2/nmap_results.txt)
-  - [PDF report](./metasploitable2/reports/OSCP_Report_vsftpd.pdf)
-  - [Network setup screenshot](./metasploitable2/images/network-setup.png)
-  - [Root shell screenshot](./metasploitable2/images/root-shell.png)
+- **vsftpd 2.3.4 backdoor (ftp/21)** – [Write-up](./metasploitable2/exploit_vsftpd.md)  
+  - [Nmap results](./metasploitable2/nmap_results.txt)  
+  - [PDF report](./metasploitable2/reports/OSCP_Report_vsftpd.pdf)  
+  - [Network setup screenshot](./metasploitable2/images/network-setup.png)  
+  - [Root shell screenshot](./metasploitable2/images/root-shell.png)  
+
+- **Samba 3.0.20 (smb/445)** – [Write-up](./metasploitable2/exploit_samba.md)  
+  - [Nmap results](./metasploitable2/nmap_samba_results.txt)  
+  - [SMB enumeration](./metasploitable2/smb_enum_results.txt)  
+  - [Root shell screenshot](./metasploitable2/images/root-shell-samba.png)  
+
 
 ## 📁 Repo Structure
 
