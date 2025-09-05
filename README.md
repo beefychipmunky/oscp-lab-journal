@@ -15,6 +15,7 @@ Each entry follows a consistent workflow: **Recon → Vulnerability → Exploita
 
 - **Samba 3.0.20 (port 445)** → [Write-up](./metasploitable2/exploit_samba.md)
   - [Nmap results](./metasploitable2/nmap_samba_results.txt)
+  - [PDF report](./metasploitable2/reports/OSCP_Report_samba.pdf)
   - [SMB enumeration](./metasploitable2/smb_enum_results.txt)
   - Screenshot: [Root shell Samba](./metasploitable2/images/proof.samba.png)
 
@@ -23,16 +24,19 @@ Each entry follows a consistent workflow: **Recon → Vulnerability → Exploita
 ## 📁 Repo Structure
 
 oscp-lab-journal/
-├─ metasploitable2/
-│ ├─ nmap_results.txt
-│ ├─ exploit_vsftpd.md
-│ ├─ reports/
-│ │ └─ OSCP_Report_vsftpd.pdf
-│ └─ images/
-│ ├─ network-setup.png
-│ └─ root-shell.png
-└─ templates/
-└─ report_entry_template.md
+ └─ metasploitable2/
+     ├─ exploit_vsftpd.md
+     ├─ exploit_samba.md
+     ├─ nmap_results.txt
+     ├─ nmap_samba_results.txt
+     ├─ smb_enum_results.txt
+     ├─ reports/
+     │   ├─ OSCP_Report_vsftpd.pdf
+     │   └─ OSCP_Report_samba.pdf
+     ├─ images/
+     │   ├─ root-shell.png
+     │   ├─ root-shell-samba.png
+     │   └─ network-setup.png
 
 ## 🧪 How I Work
 - Enumerate with `nmap -sC -sV`, research versions/CVEs, exploit (Metasploit/manual),
